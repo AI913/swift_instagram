@@ -5,14 +5,18 @@
 //  Created by 招耀華 on 6/12/2020.
 //
 
+import AVFoundation
 import UIKit
 
 class CameraViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        navigationController?.setNavigationBarHidden(true, animated: false)
+    }
+    
+    private func didTapTakePicture() {
+        
     }
     
 
